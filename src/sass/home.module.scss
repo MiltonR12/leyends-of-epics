@@ -1,0 +1,49 @@
+.cuerpo {
+  background: url(../img/fondo.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 1000px;
+  width: 100%;
+  .contPresentacion {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 10px;
+    gap: 30px;
+    h1 {
+      color: #FF2C55;
+      font-size: 11vw;
+    }
+    p {
+      color: #eee;
+      font-size: 5vw;
+      text-align: center;
+    }
+    .btnEnviar {
+      width: 200px;
+      height: 40px;
+      background-color: #000;
+      color: #E2294F;
+      border: 2px solid #E2294F;
+      border-radius: 10px;
+    }
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .cuerpo {
+    .contPresentacion {
+      h1 {
+        font-size: 60px;
+      }
+      p {
+        font-size: 30px;
+        max-width: 600px;
+      }
+    }
+  }
+}

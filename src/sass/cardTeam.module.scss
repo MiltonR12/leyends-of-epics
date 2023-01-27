@@ -1,0 +1,24 @@
+.cuerpo {
+  .contCard {
+    width: 350px;
+    height: 150px;
+    padding: 10px;
+    background-color: #000;
+    border-radius: 10px;
+    border: 2px solid #FF2C55;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    h3 {
+      span {
+        color: #E2294F;
+      }
+    }
+    h4 {
+      span {
+        color: #E2294F;
+      }
+    }
+  }
+}

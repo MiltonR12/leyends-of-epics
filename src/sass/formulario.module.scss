@@ -1,0 +1,44 @@
+.cuerpo {
+  max-width: 600px;
+  width: 90%;
+  background-color: #3c0919;
+  border: 2px solid #fff;
+  padding: 10px;
+  .contForm {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    .seccion {
+      display: flex;
+      flex-direction: column;
+      label {
+        font-size: 20px;
+        margin-bottom: 10px;
+      }
+      input {
+        background-color: #7d1128;
+        color: #fff;
+        border: none;
+        border-bottom: 1px solid #fff;
+        padding: 5px;
+        outline: none;
+        font-size: 18px;
+      }
+      textarea {
+        background-color: #7d1128;
+        color: #fff;
+        border: 1px solid #fff;
+        padding: 5px;
+        outline: none;
+        font-size: 18px;
+      }
+      .btnEnviar {
+        background-color: #000;
+        color: #FF2C55;
+        height: 40px;
+        border: 2px solid #FF2C55;
+        font-size: 20px;
+      }
+    }
+  }
+}
