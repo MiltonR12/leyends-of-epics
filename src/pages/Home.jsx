@@ -1,6 +1,8 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import Lista from '../components/Lista'
+import Redes from '../components/Redes'
+import Reglas from '../components/Reglas'
 import estilos from '../sass/home.module.scss'
 
 function Home() {
@@ -11,12 +13,14 @@ function Home() {
     <main className={estilos.cuerpo} >
       <div className={estilos.contPresentacion} >
         <h1>Leyend Of Epics</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, dolorem nisi. Dicta culpa accusamus architecto, consectetur distinctio impedit odio dignissimos.</p>
+        <p>Dime Legends se complace en invitarte a este nuevo torneo para que demuestren sus habilidad y asi fomentar el competitivo en Bolivia.</p>
         <button
           className={estilos.btnEnviar}
           onClick={() => navigate('/form')}
         >INSCRIBIRSE</button>
       </div>
+      <Redes />
+      <Reglas />
       <Lista />
     </main>
   )

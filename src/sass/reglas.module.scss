@@ -1,0 +1,33 @@
+.cuerpo {
+  width: 100%;
+  background-color: rgba(0,0,0,0.5);
+  backdrop-filter: blur(5px);
+  h1 {
+    text-align: center;
+    padding: 20px 0px;
+  }
+  .contReglas {
+    padding: 0px 10px;
+    .contPunto {
+      font-family: sans-serif;
+      margin-bottom: 20px;
+      h3 {
+        margin-bottom: 30px;
+        text-align: center;
+      }
+      h4 {
+        color: #E2294F;
+        margin-bottom: 10px;
+      }
+      ul {
+        li {
+          color: rgb(206, 206, 206);
+        }
+      }
+      a {
+        text-decoration: none;
+        color: #fff;
+      }
+    }
+  }
+}
