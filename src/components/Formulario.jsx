@@ -14,7 +14,8 @@ function Formulario() {
     const info = Object.fromEntries(form)
     addEquipoMutation.mutate({
       ...info,
-      date: 'Sin designar'
+      date: 'Sin designar',
+      position: 0
     })
     navigate('/')
   }
